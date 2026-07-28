@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For Kavana 💖</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<div class="cat cat1">🐱</div>
+<div class="cat cat2">🐈</div>
+
+<section class="welcome">
+    <div class="envelope">
+        💌
+    </div>
+
+    <h1>Happy Friendship Day</h1>
+    <h2>Kavana 💗</h2>
+
+    <p>
+    A special little surprise<br>
+    made by Satyam ✨
+    </p>
+
+    <button onclick="start()">Open Letter 💌</button>
+</section>
+
+
+<section class="card hidden">
+
+<img src="images/photo1.jpg" class="photo">
+
+<h2>Dear Kavana 🌸</h2>
+
+<p>
+"In English, they said 'Bestie.' But in poetry, they say:
+'She is the laughter in my darkest days, a soul I trust in every way.'"
+</p>
+
+</section>
+
+
+
+<section class="card hidden">
+
+<img src="images/photo2.jpg" class="photo">
+
+<p>
+"I love you more than words, but my favorite part of us is still our inside jokes.
+Happy Friendship Day!"
+</p>
+
+</section>
+
+
+
+<section class="card hidden">
+
+<div class="emoji">
+🐱 💕 🐱
+</div>
+
+<p>
+"Happy Friendship Day to the girl who willingly enables all my worst habits."
+</p>
+
+</section>
+
+
+
+<section class="card hidden">
+
+<img src="images/photo3.jpg" class="photo">
+
+<p>
+"To the one who knows all my secrets, accepts me at my worst,
+and still loves me anyway."
+</p>
+
+</section>
+
+
+
+<section class="final hidden">
+
+<h1>
+Partner in crime and in love 💖
+</h1>
+
+<h2>
+Forever your friend,<br>
+Satyam ✨
+</h2>
+
+<div class="hearts">
+❤️ 💕 💗 💖
+</div>
+
+</section>
+
+
+<button class="music" onclick="music()">
+🎵 Play Music
+</button>
+
+
+<audio id="song">
+<source src="song.mp3">
+</audio>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
